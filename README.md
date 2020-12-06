@@ -2,7 +2,7 @@
 
 * [Introduction](#Introduction)
 * [Completed](#Completed)
-* [To Do](#To Do)
+* [To Do](#To-Do)
 
 ## Introduction
 
@@ -14,7 +14,7 @@ An in progress project to create a personal cheat sheet for html and css tags an
 * CSS written to center things and create a nice pink theme
 * CSS table placeholder
 
-## To Do
+## To-Do
 
 * Bulk up the CSS Table
 * Add new topics
