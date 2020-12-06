@@ -1,8 +1,8 @@
 # HTML-CSS-Cheat-Sheet
 
-* Introduction
-* Completed
-* To Do
+* [Introduction](#Introduction)
+* [Completed](#Completed)
+* [To Do](#"To Do")
 
 ## Introduction
 
