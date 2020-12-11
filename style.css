@@ -31,12 +31,16 @@ table, thead, tbody, tr, th, td {
 }
 
 thead th {
-    background-color:#ff399c;
+    background-color:#ff77b4;
     opacity: 0.75;
 }
 
 th {
-    background-color: rgb(255 130 190 / 61%);
+    background-color: #ffbcda;
+}
+
+td {
+    background-color: #ffd6e9;
 }
 
 tr td:nth-child(1),
