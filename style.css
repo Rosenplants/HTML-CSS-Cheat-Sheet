@@ -1,5 +1,12 @@
 /*Universal Styles*/
-body{
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
     background: pink;
 }
 
@@ -10,9 +17,17 @@ header {
     position: absolute; width: 100%; top: 0px; left: 0px;
 }
 
+header a {
+    position: absolute; top: 25px; left: 0;
+    color: white;
+    font-size: 1.25rem;
+    margin: auto 1rem;
+}
+
 /*Body Styles*/
 main {
     padding-top: 100px;
+    margin: 0 2rem;
 }
 
 h2 {
@@ -21,8 +36,8 @@ h2 {
 
 /*Table Styles*/
 table {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 table, thead, tbody, tr, th, td {
@@ -37,17 +52,24 @@ thead th {
 
 th {
     background-color: #ffbcda;
+    padding: 0.25rem;
 }
 
 td {
     background-color: #ffd6e9;
+    padding: 0.5rem;
 }
 
 tr td:nth-child(1),
 tr td:nth-child(2) {
     text-align: center;
+    min-width: 100px;
 }
 
 .table-html tr td:nth-child(1) {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.table-css {
+    margin-bottom: 2rem;
 }
